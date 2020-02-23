@@ -8,6 +8,9 @@ def listfiles(p):
     print(fl)
     return fl
 
+def localparser(s):
+    parse = javalang.parse.parse(s)
+    return parse.types
 
 def loadparse():
     print('Enter Code Path:')
@@ -18,7 +21,11 @@ def loadparse():
         print(path_construct)
         try:
             f = open(path_construct, 'r')
-            print(f.read())
+            retval = localparser(f.read())
+            filename = '.cachefile'+str(i)
+            f1 = open(filename, 'w')
+            f1.write(str(retval))
+            f1.close()
         except IOError:
             print('unable to open file'+IOError)
 loadparse()
