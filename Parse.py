@@ -17,8 +17,8 @@ def loadparse():
         path_construct = path+'\\'+i
         print(path_construct)
         try:
-            f = open(path_construct, 'rb')
-            print(str(f.readlines()))
+            f = open(path_construct, 'r')
+            print(f.read())
         except IOError:
             print('unable to open file'+IOError)
 loadparse()
