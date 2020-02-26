@@ -16,9 +16,9 @@ def listfiles(p):
     return s4"""
 
 def reparser(s): #this function parses the function names in the files
-    match = re.findall(r'\n', s)
-    s1 = s.replace('\n', ' ')
-    s2 = s1.replace('.method', '\n.method')
+    match = re.findall(r'\n', s) # finds if new line is present, to make if condition for linux and windows new line chars \r\n and \n
+    s1 = s.replace('\n', ' ') #replacing all the new lines, to be updated for linux as well \r\n and \n for linux
+    s2 = s1.replace('.method', '\n.method') #push all the methods to new line for easy regular expression check
     s3 = re.findall('(\.method.*return( |-)(?!void).*\.end method)', s2) #retrieves all the functions which has return
     s6 = ''
     for i in s3:
