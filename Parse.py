@@ -1,21 +1,19 @@
-from os import listdir
+from os import listdir, walk
 from pathlib import Path
-import javalang
 import re
 
 
-def listfiles(p):
-    fl = listdir(p)
-    #print(fl)
-    return fl
+def getallfiles(p):
+    fileslist = []
+    fname = []
+    for root, direc, filename in walk(p, topdown=True):
+        for i in filename:
+            fileslist.append(root+"\\"+i)
+    return fileslist
 
-"""def enumerator(lvalue):
-    print('enum function call')
-    s4 = re.findall(r'\.method.*(a\([\S]*\)).*\.locals', lvalue)
-    print(s4)
-    return s4"""
 
-def reparser(s,fname): #this function parses the function names in the files
+def getretrunfunctions(s): #this function parses the function names in the files
+    funret = []
     match = re.findall(r'\n', s) # finds if new line is present, to make if condition for linux and windows new line chars \r\n and \n
     s1 = s.replace('\n', ' ') #replacing all the new lines, to be updated for linux as well \r\n and \n for linux
     s2 = s1.replace('.method', '\n.method') #push all the methods to new line for easy regular expression check
@@ -23,25 +21,28 @@ def reparser(s,fname): #this function parses the function names in the files
     s6 = ''
     for i in s3:
         s6 = re.findall(r'([\S]*\([\w\S]*\)).*\.local', str(i)) # lists out all the functions which returns some value May change if method name has special chars
-        print(str(s6)+' - '+fname)
-    return s6
+        funret.append(s6)
+    return funret
 
-def loadparse(): #this function locates all the files and pushes the files info to reparse() function
+
+def getAllFunctions():
+    return True
+
+
+def loadparse(path): #this function locates all the files and pushes the files info to reparse() function
     print('Enter Code Path:')
-    #path = input()
-    path = 'C:\\Users\\anand\\Downloads\\UnCrackable-Level1\\smali\\sg\\vantagepoint\\a'
-    fil = listfiles(path)
-    print(fil)
-    for i in fil:
-        path_construct = path+'\\'+i
-        #print(path_construct)
+    fpath = getallfiles(path)
+    flag = True
+    f1 = open('.cachefuntions', 'w')
+    for i in fpath:
+        dit = {}
         try:
-            f = open(path_construct, 'r')
-            filename = '.cachefile-' + str(i)
-            retval = reparser(f.read(),i)
-            #f1 = open(filename, 'w')
-            #f1.write(str(retval))
-            #f1.close()
+            f = open(i, 'r')
+            dit.__setitem__(i, getretrunfunctions(f.read()))
+            f1.writelines(f'{dit}')
+            f.close()
         except IOError:
             print('unable to open file'+IOError)
-loadparse()
+            flag = False
+    f1.close()
+    return flag
