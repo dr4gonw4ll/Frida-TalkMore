@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78e5e1fe-9226-4500-a050-930c97237cf3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cachefuntions" beforeDir="false" afterPath="$PROJECT_DIR$/.cachefuntions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frida_talkmore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmore.py" beforeDir="false" afterPath="$PROJECT_DIR$/talkmore.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,10 +166,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583690039507" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584041067007">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584056761281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584041067007" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584056761281" />
     <state x="603" y="329" width="354" height="165" key="Github.CreateGistDialog" timestamp="1582426637302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

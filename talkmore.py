@@ -42,12 +42,18 @@ def generatescript(smalipath):  # writes frida generated script
                 print('Function Name: '+str(fun_name))
                 if (fun_val.__contains__('')):
                     fun_val = fun_val[0:-1]
+                for s in fun_val:
+                    if(s.__contains__('[B')): #bytes in bytecode is represented as [B and the code is the identify number of bytes to generate params
+                        len_val = len(re.findall(r'\[B', s))
+                        len_val = len_val-1
+                        [fun_val.append(str(i)) for i in range(0, len_val)]
+                        print('found'+str(fun_val))
+                print('Function Parameter: '+str(fun_val))
                 js_variable = ''.join(random.choice(string.ascii_letters) for i in range(8))
                 ret_variable = ''.join(random.choice(string.ascii_letters) for i in range(8))
                 variable_ids = map(lambda x: ''.join(random.choice(string.ascii_letters) for i in range(8)), fun_val)
                 tup = tuple(list(variable_ids))
-                if (len(
-                        tup) == 1):  # to fix python list conversion to tuple, single argument structure https://wiki.python.org/moin/TupleSyntax
+                if (len(tup) == 1):  # to fix python list conversion to tuple, single argument structure https://wiki.python.org/moin/TupleSyntax
                     tup = str(tup).replace(',', '')
                 final_var = str(tup).replace('\'', '')
                 final_var_toprint = final_var.replace('(', '')
