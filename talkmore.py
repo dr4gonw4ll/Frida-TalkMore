@@ -7,10 +7,9 @@ import sys
 import string
 
 
-def getfunandval(
-        x):  # this function returns the function names and the parameter values as list with in the identified values
+def getfunandval(x):  # this function returns the function names and the parameter values as list with in the identified values
     # print(x)
-    y = re.findall(r'([\w\d]*)\(', str(x[0]))
+    y = re.findall(r'([\w\d\$]*)\(', str(x[0]))
     z = re.findall(r'\((.*)\)', str(x[0]))
     # print(z[0])
     s = str(z[0]).split(';')
@@ -56,6 +55,7 @@ def generatescript(smalipath):  # writes frida generated script
                 # print(final_var)
                 funstr = f"""var {js_variable} = Java.use('{class_name}');\n {js_variable}.{fun_name[0]}.implementation = function{final_var}{{\nconsole.log('Class Name: {class_name}')\nconsole.log('Variable Values',{final_var_toprint})\nvar {ret_variable} = this.{fun_name[0]}{final_var}\nconsole.log({ret_variable})\nreturn {ret_variable}\n}}\n"""
                 js_file.writelines(funstr)
+    print('..........................')
     js_file.writelines('});')
     js_file.close()
     return True
@@ -70,6 +70,3 @@ if __name__ == '__main__':
             print('check the frida-talkmore.js script in the current directory')
     else:
         print('Please pass the .smali code path properly')
-
-
-

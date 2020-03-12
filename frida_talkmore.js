@@ -1,130 +1,130 @@
  Java.perform(function(){
- var soGaRZcv = Java.use('sg.vantagepoint.uncrackable1.a');
- soGaRZcv.a.implementation = function(LiUJpplK){
+ var LacEVVoH = Java.use('sg.vantagepoint.uncrackable1.a');
+ LacEVVoH.a.implementation = function(zWOWGMwr){
 console.log('Class Name: sg.vantagepoint.uncrackable1.a')
-console.log('Variable Values',LiUJpplK)
-var HUkGpPBr = this.a(LiUJpplK)
-console.log(HUkGpPBr)
-return HUkGpPBr
+console.log('Variable Values',zWOWGMwr)
+var lCIrWDSX = this.a(zWOWGMwr)
+console.log(lCIrWDSX)
+return lCIrWDSX
 }
-var ivmnOZNl = Java.use('sg.vantagepoint.uncrackable1.a');
- ivmnOZNl.b.implementation = function(zcZZBZaS){
+var kdcRIOvz = Java.use('sg.vantagepoint.uncrackable1.a');
+ kdcRIOvz.b.implementation = function(iDkymRPo){
 console.log('Class Name: sg.vantagepoint.uncrackable1.a')
-console.log('Variable Values',zcZZBZaS)
-var ebfwwAko = this.b(zcZZBZaS)
-console.log(ebfwwAko)
-return ebfwwAko
+console.log('Variable Values',iDkymRPo)
+var jBlpfXNC = this.b(iDkymRPo)
+console.log(jBlpfXNC)
+return jBlpfXNC
 }
-var SaVIvtRn = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- SaVIvtRn.000.implementation = function(){
+var sqNzljaI = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ sqNzljaI.access$000.implementation = function(){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
 console.log('Variable Values',)
-var rphvXNEp = this.000()
-console.log(rphvXNEp)
-return rphvXNEp
+var xaZyDOzX = this.access$000()
+console.log(xaZyDOzX)
+return xaZyDOzX
 }
-var eexcjPfB = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- eexcjPfB.getAESCipher.implementation = function(fNUrIQxb, eadngsdu, wxBhDElW){
+var GhaLfFcb = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ GhaLfFcb.getAESCipher.implementation = function(NvOCLcfP, knuqiDNG, KocNTaWo){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',fNUrIQxb, eadngsdu, wxBhDElW)
-var iCiVYikv = this.getAESCipher(fNUrIQxb, eadngsdu, wxBhDElW)
-console.log(iCiVYikv)
-return iCiVYikv
+console.log('Variable Values',NvOCLcfP, knuqiDNG, KocNTaWo)
+var CGOatXPr = this.getAESCipher(NvOCLcfP, knuqiDNG, KocNTaWo)
+console.log(CGOatXPr)
+return CGOatXPr
 }
-var doFzvYrl = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- doFzvYrl.decryptAES.implementation = function(rdMTLcvZ, HoKEzOTd, FChuYaPE){
+var mzHFLAey = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ mzHFLAey.decryptAES.implementation = function(WcERiBAZ, ymwzQmbi, EbrkcRMX){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',rdMTLcvZ, HoKEzOTd, FChuYaPE)
-var nCdvmYpx = this.decryptAES(rdMTLcvZ, HoKEzOTd, FChuYaPE)
-console.log(nCdvmYpx)
-return nCdvmYpx
+console.log('Variable Values',WcERiBAZ, ymwzQmbi, EbrkcRMX)
+var jqrJNOWi = this.decryptAES(WcERiBAZ, ymwzQmbi, EbrkcRMX)
+console.log(jqrJNOWi)
+return jqrJNOWi
 }
-var nWlrTEgn = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- nWlrTEgn.decryptWithKey.implementation = function(GgxCEauP, sLGSnpQq){
+var IBjpGKWv = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ IBjpGKWv.decryptWithKey.implementation = function(MaGTwAYL, RIhQjltD){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',GgxCEauP, sLGSnpQq)
-var QwdGCRMh = this.decryptWithKey(GgxCEauP, sLGSnpQq)
-console.log(QwdGCRMh)
-return QwdGCRMh
+console.log('Variable Values',MaGTwAYL, RIhQjltD)
+var sRahlxHo = this.decryptWithKey(MaGTwAYL, RIhQjltD)
+console.log(sRahlxHo)
+return sRahlxHo
 }
-var IRRWdbYP = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- IRRWdbYP.decryptWithMasterKey.implementation = function(ekWWRKSg){
+var FlByQdQh = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ FlByQdQh.decryptWithMasterKey.implementation = function(EcvsZuMm){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',ekWWRKSg)
-var EcQSGNBI = this.decryptWithMasterKey(ekWWRKSg)
-console.log(EcQSGNBI)
-return EcQSGNBI
+console.log('Variable Values',EcvsZuMm)
+var rFofbjwr = this.decryptWithMasterKey(EcvsZuMm)
+console.log(rFofbjwr)
+return rFofbjwr
 }
-var aTZsBMlU = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- aTZsBMlU.encryptAES.implementation = function(qDnuOsUF, gixHozUR){
+var xzQkyACY = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ xzQkyACY.encryptAES.implementation = function(yvKzhrGY, RQESSFUM){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',qDnuOsUF, gixHozUR)
-var bYJAExUu = this.encryptAES(qDnuOsUF, gixHozUR)
-console.log(bYJAExUu)
-return bYJAExUu
+console.log('Variable Values',yvKzhrGY, RQESSFUM)
+var pqKrCpoG = this.encryptAES(yvKzhrGY, RQESSFUM)
+console.log(pqKrCpoG)
+return pqKrCpoG
 }
-var slAKxYRZ = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- slAKxYRZ.encryptWithMasterKey.implementation = function(myCLeDld){
+var OiNaOSHY = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ OiNaOSHY.encryptWithMasterKey.implementation = function(oppYqTfd){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',myCLeDld)
-var OBdIGYeZ = this.encryptWithMasterKey(myCLeDld)
-console.log(OBdIGYeZ)
-return OBdIGYeZ
+console.log('Variable Values',oppYqTfd)
+var zBUibelv = this.encryptWithMasterKey(oppYqTfd)
+console.log(zBUibelv)
+return zBUibelv
 }
-var hddhJxgF = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- hddhJxgF.encryptWithReEncodedPublicKey.implementation = function(rFYKMwWD, pFoiXQSd){
+var hJHFpzGM = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ hJHFpzGM.encryptWithReEncodedPublicKey.implementation = function(wbFmhOtJ, gyrCaimd){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',rFYKMwWD, pFoiXQSd)
-var FQyRjtGs = this.encryptWithReEncodedPublicKey(rFYKMwWD, pFoiXQSd)
-console.log(FQyRjtGs)
-return FQyRjtGs
+console.log('Variable Values',wbFmhOtJ, gyrCaimd)
+var ygpDfxMh = this.encryptWithReEncodedPublicKey(wbFmhOtJ, gyrCaimd)
+console.log(ygpDfxMh)
+return ygpDfxMh
 }
-var XUWNgxHO = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- XUWNgxHO.getAESCipherAlgorithm.implementation = function(dYtanvHe){
+var reiiisvg = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ reiiisvg.getAESCipherAlgorithm.implementation = function(rujijMpl){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',dYtanvHe)
-var tUaOZQUl = this.getAESCipherAlgorithm(dYtanvHe)
-console.log(tUaOZQUl)
-return tUaOZQUl
+console.log('Variable Values',rujijMpl)
+var WXGolfzE = this.getAESCipherAlgorithm(rujijMpl)
+console.log(WXGolfzE)
+return WXGolfzE
 }
-var qCSinapA = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- qCSinapA.getMasterKey.implementation = function(){
-console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',)
-var yysUWBbT = this.getMasterKey()
-console.log(yysUWBbT)
-return yysUWBbT
-}
-var ycpzKOLj = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- ycpzKOLj.getMasterKeyGenerationTime.implementation = function(){
+var EdoMpxnI = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ EdoMpxnI.getMasterKey.implementation = function(){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
 console.log('Variable Values',)
-var dAqZEYaI = this.getMasterKeyGenerationTime()
-console.log(dAqZEYaI)
-return dAqZEYaI
+var tKhwKXdd = this.getMasterKey()
+console.log(tKhwKXdd)
+return tKhwKXdd
 }
-var MnGHdaTD = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- MnGHdaTD.hash.implementation = function(bRuAOqoZ){
+var zXZtDNJp = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ zXZtDNJp.getMasterKeyGenerationTime.implementation = function(){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',bRuAOqoZ)
-var HhZJWDlq = this.hash(bRuAOqoZ)
-console.log(HhZJWDlq)
-return HhZJWDlq
+console.log('Variable Values',)
+var neXNebWT = this.getMasterKeyGenerationTime()
+console.log(neXNebWT)
+return neXNebWT
 }
-var BoxqsCUX = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- BoxqsCUX.isSignatureInvalidated.implementation = function(PgXvoxMo){
+var VbGVZhGt = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ VbGVZhGt.hash.implementation = function(tfRqkUGi){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',PgXvoxMo)
-var ereDRMbL = this.isSignatureInvalidated(PgXvoxMo)
-console.log(ereDRMbL)
-return ereDRMbL
+console.log('Variable Values',tfRqkUGi)
+var GjcnxKft = this.hash(tfRqkUGi)
+console.log(GjcnxKft)
+return GjcnxKft
 }
-var zlfYAEjc = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
- zlfYAEjc.nhash.implementation = function(ZkHbPEiM){
+var FyNbaCwA = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ FyNbaCwA.isSignatureInvalidated.implementation = function(dhhAgGgf){
 console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
-console.log('Variable Values',ZkHbPEiM)
-var zwQlYhzl = this.nhash(ZkHbPEiM)
-console.log(zwQlYhzl)
-return zwQlYhzl
+console.log('Variable Values',dhhAgGgf)
+var gwcUrMIu = this.isSignatureInvalidated(dhhAgGgf)
+console.log(gwcUrMIu)
+return gwcUrMIu
+}
+var nJeJwHKi = Java.use('sg.vantagepoint.uncrackable1.CommonStoreEncryptor');
+ nJeJwHKi.nhash.implementation = function(idFDZdDl){
+console.log('Class Name: sg.vantagepoint.uncrackable1.CommonStoreEncryptor')
+console.log('Variable Values',idFDZdDl)
+var HNAadAlC = this.nhash(idFDZdDl)
+console.log(HNAadAlC)
+return HNAadAlC
 }
 });
