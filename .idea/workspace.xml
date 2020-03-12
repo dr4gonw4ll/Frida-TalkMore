@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e5e1fe-9226-4500-a050-930c97237cf3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frida_talkmore.js" beforeDir="false" afterPath="$PROJECT_DIR$/frida_talkmore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talkmore.py" beforeDir="false" afterPath="$PROJECT_DIR$/talkmore.py" afterDir="false" />
-    </list>
+    <list default="true" id="78e5e1fe-9226-4500-a050-930c97237cf3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
