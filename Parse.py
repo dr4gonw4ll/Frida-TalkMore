@@ -39,7 +39,7 @@ def loadparse(path): #this function locates all the files and pushes the files i
         try:
             f = open(i, 'r')
             dit.__setitem__(i, getretrunfunctions(f.read()))
-            f1.writelines(f'{dit}')
+            f1.writelines(f'{dit}\n')
             f.close()
         except IOError:
             print('unable to open file'+IOError)

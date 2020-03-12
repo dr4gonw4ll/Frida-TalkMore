@@ -3,6 +3,7 @@ import subprocess
 import re
 
 
+
 def decode(path):
     subprocess.call(['apktool','d', path], stdout=None, stderr=subprocess.STDOUT, shell=True)
 
