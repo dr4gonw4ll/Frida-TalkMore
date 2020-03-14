@@ -4,4 +4,4 @@ Frida-TalkMore is to know more about Android application internals. It is a Pyth
 
 This script has not been tested on any *nix machines. I have only used it on Windows.
 <h5>Usage:
->python talkmore.py \<path to smali files\>
+>python talkmore.py C:\Users\Downloads\UnCrackable_Level1\smali\sg\vantagepoint
