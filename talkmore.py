@@ -58,8 +58,10 @@ def generatescript(smalipath):  # writes frida generated script
                 final_var = str(tup).replace('\'', '')
                 final_var_toprint = final_var.replace('(', '')
                 final_var_toprint = final_var_toprint.replace(')', '')
+                if(final_var_toprint == ''):
+                    final_var_toprint = 0
                 # print(final_var)
-                funstr = f"""var {js_variable} = Java.use('{class_name}');\n {js_variable}.{fun_name[0]}.implementation = function{final_var}{{\nconsole.log('Class Name: {class_name}')\nconsole.log('Variable Values',{final_var_toprint})\nvar {ret_variable} = this.{fun_name[0]}{final_var}\nconsole.log({ret_variable})\nreturn {ret_variable}\n}}\n"""
+                funstr = f"""var {js_variable} = Java.use('{class_name}');\n {js_variable}.{fun_name[0]}.implementation = function{final_var}{{\nconsole.log('\\n--------Frida-Talkmore-------')\nconsole.log('Class Name: {class_name}')\nconsole.log('Function Name: {fun_name[0]}')\nconsole.log('Variable Values: ',{final_var_toprint})\nvar {ret_variable} = this.{fun_name[0]}{final_var}\nconsole.log('Function Return Value: ',{ret_variable})\nreturn {ret_variable}\n}}\n"""
                 js_file.writelines(funstr)
     print('..........................')
     js_file.writelines('});')

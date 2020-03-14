@@ -1,58 +1,78 @@
  Java.perform(function(){
- var KtSjcqtL = Java.use('sg.vantagepoint.a.a');
- KtSjcqtL.a.implementation = function(ZxcPViQT, ijYSkIBD){
+ var LEJXAOGO = Java.use('sg.vantagepoint.a.a');
+ LEJXAOGO.a.implementation = function(vLVYSdJE, gLzOIiAt){
+console.log('\n--------Frida-Talkmore-------')
 console.log('Class Name: sg.vantagepoint.a.a')
-console.log('Variable Values',ZxcPViQT, ijYSkIBD)
-var BUbYqYns = this.a(ZxcPViQT, ijYSkIBD)
-console.log(BUbYqYns)
-return BUbYqYns
+console.log('Function Name: a')
+console.log('Variable Values: ',vLVYSdJE, gLzOIiAt)
+var adnhlIwg = this.a(vLVYSdJE, gLzOIiAt)
+console.log('Function Return Value: ',adnhlIwg)
+return adnhlIwg
 }
-var ZqYAsBpq = Java.use('sg.vantagepoint.a.b');
- ZqYAsBpq.a.implementation = function(jRLmBUGq){
+var nMobLNXA = Java.use('sg.vantagepoint.a.b');
+ nMobLNXA.a.implementation = function(jAMdaTlA){
+console.log('\n--------Frida-Talkmore-------')
 console.log('Class Name: sg.vantagepoint.a.b')
-console.log('Variable Values',jRLmBUGq)
-var IiisgqXd = this.a(jRLmBUGq)
-console.log(IiisgqXd)
-return IiisgqXd
+console.log('Function Name: a')
+console.log('Variable Values: ',jAMdaTlA)
+var wIvUvLSH = this.a(jAMdaTlA)
+console.log('Function Return Value: ',wIvUvLSH)
+return wIvUvLSH
 }
-var GgvsDHGi = Java.use('sg.vantagepoint.a.c');
- GgvsDHGi.a.implementation = function(){
+var etHcVjUY = Java.use('sg.vantagepoint.a.c');
+ etHcVjUY.a.implementation = function(){
+console.log('\n--------Frida-Talkmore-------')
 console.log('Class Name: sg.vantagepoint.a.c')
-console.log('Variable Values',)
-var cobVbwqa = this.a()
-console.log(cobVbwqa)
-return cobVbwqa
+console.log('Function Name: a')
+console.log('Variable Values: ',0)
+var lRSTzDLs = this.a()
+console.log('Function Return Value: ',lRSTzDLs)
+return false
 }
-var TVfGWNlH = Java.use('sg.vantagepoint.a.c');
- TVfGWNlH.b.implementation = function(){
+var iIqNWUov = Java.use('sg.vantagepoint.a.c');
+ iIqNWUov.b.implementation = function(){
+console.log('\n--------Frida-Talkmore-------')
 console.log('Class Name: sg.vantagepoint.a.c')
-console.log('Variable Values',)
-var ekMnVaVP = this.b()
-console.log(ekMnVaVP)
-return ekMnVaVP
+console.log('Function Name: b')
+console.log('Variable Values: ',0)
+var EilLkNmM = this.b()
+console.log('Function Return Value: ',EilLkNmM)
+return EilLkNmM
 }
-var mCpTaOCp = Java.use('sg.vantagepoint.a.c');
- mCpTaOCp.c.implementation = function(){
+var FqkKiuLf = Java.use('sg.vantagepoint.a.c');
+ FqkKiuLf.c.implementation = function(){
+console.log('\n--------Frida-Talkmore-------')
 console.log('Class Name: sg.vantagepoint.a.c')
-console.log('Variable Values',)
-var ntyDJQlx = this.c()
-console.log(ntyDJQlx)
-return ntyDJQlx
+console.log('Function Name: c')
+console.log('Variable Values: ',0)
+var AoJkdJEN = this.c()
+console.log('Function Return Value: ',AoJkdJEN)
+return AoJkdJEN
 }
-var aPDKeeuH = Java.use('sg.vantagepoint.uncrackable1.a');
- aPDKeeuH.a.implementation = function(pTuHtttZ){
+var iAZinbri = Java.use('sg.vantagepoint.uncrackable1.a');
+ iAZinbri.a.implementation = function(SSraZgEK){
+console.log('\n--------Frida-Talkmore-------')
 console.log('Class Name: sg.vantagepoint.uncrackable1.a')
-console.log('Variable Values',pTuHtttZ)
-var OIKaHEjh = this.a(pTuHtttZ)
-console.log(OIKaHEjh)
-return OIKaHEjh
+console.log('Function Name: a')
+console.log('Variable Values: ',SSraZgEK)
+var GWXYocYH = this.a(SSraZgEK)
+console.log('Function Return Value: ',GWXYocYH)
+return GWXYocYH
 }
-var kJnhuCGR = Java.use('sg.vantagepoint.uncrackable1.a');
- kJnhuCGR.b.implementation = function(IzNWXcrT){
+var jjkXeTUq = Java.use('sg.vantagepoint.uncrackable1.a');
+ jjkXeTUq.b.implementation = function(IVGcAhwc){
+console.log('\n--------Frida-Talkmore-------')
 console.log('Class Name: sg.vantagepoint.uncrackable1.a')
-console.log('Variable Values',IzNWXcrT)
-var ksnmzhlj = this.b(IzNWXcrT)
-console.log(ksnmzhlj)
-return ksnmzhlj
+console.log('Function Name: b')
+console.log('Variable Values: ',IVGcAhwc)
+var wTansSLJ = this.b(IVGcAhwc)
+var i;
+var y='';
+for(i=0;i<wTansSLJ.length;i++){
+    y=y+String.fromCharCode(wTansSLJ[i]);
+  }
+console.log(y);
+console.log('Function Return Value: ',wTansSLJ)
+return wTansSLJ
 }
 });
