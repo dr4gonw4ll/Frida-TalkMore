@@ -12,3 +12,4 @@ This script has not been tested on any *nix machines. I have only used it on Win
 3. The script will automatically walk through the provided root directory
 
 ```python talkmore.py C:\Users\Downloads\UnCrackable_Level1\smali\sg\vantagepoint```
+```frida -U -f <appname> -l frida-talkmore.js --no-pause```
